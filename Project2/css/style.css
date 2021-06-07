@@ -1,0 +1,174 @@
+body {
+	font-family: 'Lora', serif;
+}
+a {
+	transition: all 0.3s ease;
+}
+.weight-500 {
+	font-weight: 500;
+}
+/* add */
+.main-nav{
+	color: burlywood;
+}
+/*  */
+.navbar-nav {
+	font-weight: 600;
+}
+.btn {
+	position: relative;
+	padding: 13.5px 36px;
+	font-weight: 700;
+	border-radius:0;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.btn-primary {
+background-color:#043e8bf1;
+}
+/* added */
+#portfolio .portfolio-item {
+	max-width: 26rem;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  #portfolio .portfolio-item .portfolio-link {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+  }
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 200, 0, 0.9);
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity ease-in-out 0.25s;
+  }
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+	font-size: 1.25rem;
+	color: white;
+  }
+  #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+	opacity: 1;
+  }
+  #portfolio .portfolio-item .portfolio-caption {
+	padding: 1.5rem;
+	text-align: center;
+	background-color: #fff;
+  }
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+	font-size: 1.5rem;
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 700;
+	margin-bottom: 0;
+  }
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+	font-style: italic;
+	font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .portfolio-modal .modal-dialog {
+	margin: 1rem;
+	max-width: 100vw;
+  }
+  .portfolio-modal .modal-content {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	text-align: center;
+  }
+  .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+	font-size: 3rem;
+	line-height: 3rem;
+  }
+  .portfolio-modal .modal-content p.item-intro {
+	font-style: italic;
+	margin-bottom: 2rem;
+	font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  .portfolio-modal .modal-content p {
+	margin-bottom: 2rem;
+  }
+  .portfolio-modal .modal-content ul.list-inline {
+	margin-bottom: 2rem;
+  }
+  .portfolio-modal .modal-content img {
+	margin-bottom: 2rem;
+  }
+  .portfolio-modal .close-modal {
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	width: 3rem;
+	height: 3rem;
+	cursor: pointer;
+	background-color: transparent;
+  }
+  .portfolio-modal .close-modal:hover {
+	opacity: 0.3;
+  }
+/* end */
+.process-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+	background-position: center;
+}
+
+
+.contact-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://annedece.sirv.com/Images/banner-img-one.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Libre Caslon Display', serif;	
+}
+.ww img{
+width:70px;
+margin-bottom:30px;	
+}
+.carousel-caption h5{
+font-size:90px;	
+}
+.carousel-caption p{
+font-size:24px;	
+}
+.carousel-caption {
+    position: absolute;
+    right:5%;
+    top:40%;
+    left:15%;
+    z-index: 10;
+    padding-top:0;
+    padding-bottom:0;
+    text-align:left;
+	color:#222;
+}
+input{
+border-radius:0 !important;		
+}
+button{
+border-radius:0 !important;		
+}
+::placeholder{
+font-size:14px;	
+}
+button.btn{
+font-size:15px !important;	
+}	
+.active{
+color:#0d4a98 !important;	
+}
+@media(max-width:960px){
+.carousel-caption h5{
+font-size:40px;	
+}	
+.carousel-caption p{
+display:none;
+}
+}
